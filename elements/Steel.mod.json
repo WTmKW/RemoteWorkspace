@@ -3,14 +3,14 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "alloyx",
+    "texture": "steelingot",
     "customModelName": "Normal",
     "customProperties": {},
     "states": [],
-    "name": "Alloy X ingot",
+    "name": "Steel ingot",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "MATERIALS"
+      "value": "No creative tab entry"
     },
     "stackSize": 64,
     "enchantability": 0,

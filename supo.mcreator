@@ -3,6 +3,7 @@
     {
       "name": "AlloyX",
       "type": "item",
+      "sortid": 2,
       "compiles": true,
       "locked_code": false,
       "registry_name": "alloy_x",
@@ -12,13 +13,60 @@
           "src/main/resources/assets/supo/models/item/alloy_x.json"
         ]
       }
+    },
+    {
+      "name": "Steel",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/supo/models/item/steel.json",
+          "src/main/java/net/mcreator/supo/item/SteelItem.java"
+        ]
+      }
+    },
+    {
+      "name": "FirstFiller",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "first_filler",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/supo/models/block/first_filler.json",
+          "src/main/java/net/mcreator/supo/block/entity/FirstFillerBlockEntity.java",
+          "src/main/resources/assets/supo/models/item/first_filler.json",
+          "src/main/java/net/mcreator/supo/block/FirstFillerBlock.java",
+          "src/main/resources/assets/supo/blockstates/first_filler.json"
+        ]
+      }
+    },
+    {
+      "name": "FirstFillerGui",
+      "type": "gui",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "first_filler_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/supo/client/gui/FirstFillerGuiScreen.java",
+          "src/main/java/net/mcreator/supo/world/inventory/FirstFillerGuiMenu.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.supo.alloy_x": "Alloy X"
+      "item.supo.alloy_x": "Alloy X ingot",
+      "item.supo.steel": "Steel ingot",
+      "block.supo.first_filler": "First Filler"
     }
   },
   "foldersRoot": {

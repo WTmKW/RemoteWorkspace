@@ -1,3 +1,5 @@
 {
-  "item.supo.alloy_x": "Alloy X"
+  "item.supo.alloy_x": "Alloy X ingot",
+  "item.supo.steel": "Steel ingot",
+  "block.supo.first_filler": "First Filler"
 }

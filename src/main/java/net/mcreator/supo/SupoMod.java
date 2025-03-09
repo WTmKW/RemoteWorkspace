@@ -30,7 +30,10 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.supo.init.SupoModTabs;
+import net.mcreator.supo.init.SupoModMenus;
 import net.mcreator.supo.init.SupoModItems;
+import net.mcreator.supo.init.SupoModBlocks;
+import net.mcreator.supo.init.SupoModBlockEntities;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -50,10 +53,13 @@ public class SupoMod {
 		MinecraftForge.EVENT_BUS.register(this);
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 
+		SupoModBlocks.REGISTRY.register(bus);
+		SupoModBlockEntities.REGISTRY.register(bus);
 		SupoModItems.REGISTRY.register(bus);
 
 		SupoModTabs.REGISTRY.register(bus);
 
+		SupoModMenus.REGISTRY.register(bus);
 	}
 
 	private static final String PROTOCOL_VERSION = "1";

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "supo:block/sprite-0004",
+    "up": "supo:block/sprite-0004",
+    "north": "supo:block/sprite-0001",
+    "east": "supo:block/sprite-0004",
+    "south": "supo:block/sprite-0004",
+    "west": "supo:block/sprite-0004",
+    "particle": "supo:block/sprite-0004"
+  },
+  "render_type": "solid"
+}
