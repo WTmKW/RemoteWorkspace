@@ -1,9 +1,25 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "AlloyX",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alloy_x",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/supo/item/AlloyXItem.java",
+          "src/main/resources/assets/supo/models/item/alloy_x.json"
+        ]
+      }
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "item.supo.alloy_x": "Alloy X"
+    }
   },
   "foldersRoot": {
     "name": "~",
