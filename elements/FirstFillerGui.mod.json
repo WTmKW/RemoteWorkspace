@@ -59,6 +59,9 @@
         }
       }
     ],
+    "onTick": {
+      "name": "CraftsInFirstFiller"
+    },
     "gridSettings": {
       "sx": 18,
       "sy": 18,

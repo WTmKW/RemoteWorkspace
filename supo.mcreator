@@ -38,8 +38,8 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/supo/models/block/first_filler.json",
-          "src/main/java/net/mcreator/supo/block/entity/FirstFillerBlockEntity.java",
           "src/main/resources/assets/supo/models/item/first_filler.json",
+          "src/main/java/net/mcreator/supo/block/entity/FirstFillerBlockEntity.java",
           "src/main/java/net/mcreator/supo/block/FirstFillerBlock.java",
           "src/main/resources/assets/supo/blockstates/first_filler.json"
         ]
@@ -56,6 +56,79 @@
         "files": [
           "src/main/java/net/mcreator/supo/client/gui/FirstFillerGuiScreen.java",
           "src/main/java/net/mcreator/supo/world/inventory/FirstFillerGuiMenu.java"
+        ]
+      }
+    },
+    {
+      "name": "FirstFillerPriShchielchkiePKMPoBloku",
+      "type": "procedure",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "first_filler_pri_shchielchkie_pkm_po_bloku",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/supo/procedures/FirstFillerPriShchielchkiePKMPoBlokuProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CraftsInFirstFiller",
+      "type": "procedure",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crafts_in_first_filler",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/supo/procedures/CraftsInFirstFillerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OchistkaGUI",
+      "type": "procedure",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ochistka_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/supo/procedures/OchistkaGUIProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
         ]
       }
     }
